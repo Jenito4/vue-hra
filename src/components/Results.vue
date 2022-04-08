@@ -15,9 +15,9 @@ export default {
         if (this.score < 250) {
             this.rank = 'Woooow!'
         } else if (this.score < 400) {
-            this.rank = 'rocket'
+            this.rank = 'Rychlý'
         } else {
-            this.rank = 'you suck'
+            this.rank = 'Nic moc'
         }
     }
 }
