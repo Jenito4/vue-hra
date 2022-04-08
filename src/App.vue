@@ -1,6 +1,6 @@
 <template>
   <h1>Reaction game</h1>
-  <button @click="start" :disabled="isPlaying">Play</button>
+  <button @click="start" :disabled="isPlaying">Hrej</button>
   <Block v-if="isPlaying" :delay="delay" @end="endGame"/>
   <Results v-if="showResults" :score="score"/>
 </template>
